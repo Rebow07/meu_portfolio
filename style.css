@@ -122,17 +122,6 @@ nav a:hover {
     margin: 20px 0 40px;
 }
 
-#typewriter {
-    color: var(--primary-color);
-    border-right: 2px solid var(--primary-color);
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    from { border-color: transparent; }
-    to { border-color: var(--primary-color); }
-}
-
 .cta-button {
     background: transparent;
     border: 2px solid var(--primary-color);

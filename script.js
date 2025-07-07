@@ -10,10 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Configuração do Efeito Máquina de Escrever (Typed.js)
     var options = {
         strings: ['soluções para a web.', 'interfaces incríveis.', 'o futuro.'],
-        typeSpeed: 50,  // Velocidade de digitação
-        backSpeed: 25,  // Velocidade de "backspace"
-        backDelay: 1500, // Tempo de espera antes de apagar
-        loop: true      // Repete a animação
+        typeSpeed: 50,
+        backSpeed: 25,
+        backDelay: 1500,
+        loop: true,
+        showCursor: false,
     };
 
     var typed = new Typed('#typewriter', options);
